@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  width: 600px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#dino {
+  width: 70px;
+  height: 50px;
+  background-image: url(img/trex.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 150px;
+}
+
+.jump {
+  animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+  0%,
+  100% {
+    top: 150px;
+  }
+
+  25%,
+  75% {
+    top: 100px;
+  }
+
+  50% {
+    top: 50px;
+  }
+}
