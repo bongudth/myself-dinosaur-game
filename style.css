@@ -5,12 +5,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(img/desert.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .game {
   width: 600px;
   height: 200px;
   border: 1px solid black;
+  background-color: antiquewhite;
 }
 
 #dino {
